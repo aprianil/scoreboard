@@ -1,0 +1,32 @@
+<html>
+    <head>
+         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="flex flex-col">
+                    <h3 class="text-white text-lg text-center">HOME</h3>
+                    <p id="home" class="mt-8 rounded-md bg-black text-red font-sans text-center text-2xl">0</p>
+                        <div class="mt-8">
+                            <button onclick="home1Points()" class="font-sans">+1</button>
+                            <button onclick="home2Points()" class="font-sans">+2</button>
+                            <button onclick="home3Points()" class="font-sans">+3</button>
+                        </div>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg">GUEST</h3>
+                    <p id="guest" class="mt-8 rounded-md bg-black text-red font-sans text-2xl">0</p>
+                    <div class="mt-8">
+                        <button onclick="guest1Points()" class="font-sans">+1</button>
+                        <button onclick="guest2Points()" class="font-sans">+2</button>
+                        <button onclick="guest3Points()"" class="font-sans">+3</button>
+                    </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
